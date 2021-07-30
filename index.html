@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is a multipage website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/9c893a61aa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+  </head>
+  <body onload="myFunction()">
+    <div id="preloder"></div>
+    <!-- header starts -->
+    <header id="navigation">
+      <div class="logo">
+        <img src="images/logo1.png" alt="" id="logo" />
+      </div>
+      <input type="checkbox" id="toggle" class="toggle" />
+      <nav>
+        <ul>
+          <li class="fixed_color" style="background: #d6c6b2;"><a href="#banner">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#blog">My Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <img src="images/moon.png" alt="" class="daymode" id="mode" />
+
+      <label for="toggle" class="nav-toggle">
+        <span></span>
+      </label>
+    </header>
+    <!-- header part ends -->
+
+    <!-- banner part starts here -->
+    <section id="banner">
+      <div class="c">
+        <div class="container">
+          <div class="banner_img">
+            <img src="images/banner_white.png" alt="" id="banner_img" />
+          </div>
+          <div class="intro">
+            <h4 style="font-size: 20px; font-weight: 500">Graphic & Web Designer</h4>
+            <h1 style="font-size: 102px; font-weight: 500; text-transform: uppercase; z-index: 3">Mogan</h1>
+            <h1 style="font-size: 85px; font-weight: 500; z-index: 5">Michalvina</h1>
+
+            <div class="btn">
+              <a href="#" class="btn_one">Explore me</a>
+
+              <a href="#" class="btn_two">Hire me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner part stop here -->
+
+    <!-- about part here  -->
+
+    <section id="about">
+      <div class="container">
+        <div class="shape">
+          <img src="images/shape.png" alt="" />
+          <img src="images/3_white.png" alt="" class="img_two" id="shape_w" />
+          <!-- <img src="images/3.png" alt="" class="img_one" id="shape_w" onclick="shape()"> -->
+        </div>
+
+        <!-- end of shape -->
+
+        <!-- texts  -->
+
+        <div class="texts">
+          <h2 class="header">About Me</h2>
+          <div class="p">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem.
+            </p>
+          </div>
+
+          <div class="media_links">
+            <h2>Hire Me:</h2>
+
+            <div class="links">
+              <div class="i">
+                <img src="images/i.png" alt="" id="logo1" />
+              </div>
+
+              <div class="i">
+                <img src="images/j.png" alt="" id="logo2" />
+              </div>
+
+              <div class="i">
+                <img src="images/k.png" alt="" id="logo3" />
+              </div>
+
+              <div class="i">
+                <img src="images/l.png" alt="" id="logo4" />
+              </div>
+
+              <div class="i">
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end of text -->
+      </div>
+    </section>
+
+    <!-- end of about part -->
+
+    <!-- services part starts here -->
+
+    <section id="services">
+      <div class="container">
+        <h1>My Services</h1>
+        <!-- button starts here
+ -->
+
+        <i class="fas fa-long-arrow-alt-left prev"></i>
+        <i class="fas fa-long-arrow-alt-right next"></i>
+
+        <!-- button ends -->
+        <!-- blocks -->
+        <div class="blocks">
+          <!-- block -->
+          <div class="block">
+            <div class="logo_s">
+              <img src="images/shape.png" alt="" class="shapes" />
+              <img src="images/bulb.png" alt="" class="log" />
+
+              <h1 class="head">Concept Development</h1>
+              <p class="para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+          </div>
+          <div class="block">
+            <div class="logo_s">
+              <img src="images/shape.png" alt="" class="shapes" />
+              <img src="images/camera.png" alt="" class="log" />
+
+              <h1 class="head">Concept Development</h1>
+              <p class="para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+          </div>
+
+          <div class="block">
+            <div class="logo_s">
+              <img src="images/shape.png" alt="" class="shapes" />
+              <img src="images/some.png" alt="" class="log" />
+
+              <h1 class="head">Concept Development</h1>
+              <p class="para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+          </div>
+
+          <div class="block">
+            <div class="logo_s">
+              <img src="images/shape.png" alt="" class="shapes" />
+              <img src="images/camera.png" alt="" class="log" />
+
+              <h1 class="head">Concept Development</h1>
+              <p class="para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+          </div>
+
+          <!-- b ends -->
+        </div>
+      </div>
+    </section>
+
+    <!-- services part ends here -->
+
+    <!-- portfolio part starts here -->
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="portfo">
+          <div class="block_One">
+            <img src="images/icon.png" alt="" />
+
+            <div class="content">
+              <p style="font-size: 20px">Girls Illustration</p>
+              <p style="font-size: 16px">Category: Illustration</p>
+            </div>
+          </div>
+
+          <div class="block_One" style="background: url('images/6.jpg')">
+            <img src="images/icon.png" alt="" />
+
+            <div class="content">
+              <p style="font-size: 20px">Girls Illustration</p>
+              <p style="font-size: 16px">Category: Illustration</p>
+            </div>
+          </div>
+
+          <div class="block_One" style="background: url('images/7.jpg')">
+            <img src="images/icon.png" alt="" />
+
+            <div class="content">
+              <p style="font-size: 20px">Girls Illustration</p>
+              <p style="font-size: 16px">Category: Illustration</p>
+            </div>
+          </div>
+
+          <div class="block_One" style="background: url('images/8.jpg')">
+            <img src="images/icon.png" alt="" />
+
+            <div class="content">
+              <p style="font-size: 20px">Girls Illustration</p>
+              <p style="font-size: 16px">Category: Illustration</p>
+            </div>
+          </div>
+        </div>
+        <div class="menu">
+          <h1>My portfolio</h1>
+
+          <ul>
+            <li><a href="#">Web template</a></li>
+            <li><a href="#">Logo design</a></li>
+            <li><a href="#">Illustration</a></li>
+            <li><a href="#">Brand Identity</a></li>
+            <li><a href="#">Motion Graphics</a></li>
+            <li><a href="#">Apps Design</a></li>
+          </ul>
+        </div>
+      </div>
+      <a href="#" class="btn"> BROWSE ALL</a>
+    </section>
+
+    <!-- portfolio part ends here -->
+
+    <!-- testimonial -->
+
+    <section id="testimonial">
+      <h1>Testimonial</h1>
+      <!-- button starts here
+ -->
+
+      <i class="fas fa-long-arrow-alt-left prev_n"></i>
+      <i class="fas fa-long-arrow-alt-right next_n"></i>
+
+      <!-- button ends -->
+      <div class="container">
+        <!-- main_blocks -->
+        <div class="main_block">
+          <div class="block_one">
+            <div class="shape">
+              <img src="images/shape.png" alt="" class="shape" />
+              <img src="images/9.png" alt="" class="log" />
+            </div>
+
+            <div class="contentS">
+              <h3 style="">Michel Clarke</h3>
+              <p>CEO - Design hunt</p>
+
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p style="font-size: 14px; line-height: 20px; padding: 20px 0px">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+          </div>
+
+          <div class="block_one">
+            <div class="shape">
+              <img src="images/shape.png" alt="" class="shape" />
+              <img src="images/10.png" alt="" class="log" />
+            </div>
+
+            <div class="contentS">
+              <h3 style="">Michel Clarke</h3>
+              <p>CEO - Design hunt</p>
+
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p style="font-size: 14px; line-height: 20px; padding: 20px 0px">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+          </div>
+
+          <div class="block_one">
+            <div class="shape">
+              <img src="images/shape.png" alt="" class="shape" />
+              <img src="images/9.png" alt="" class="log" />
+            </div>
+
+            <div class="contentS">
+              <h3 style="">Michel Clarke</h3>
+              <p>CEO - Design hunt</p>
+
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p style="font-size: 14px; line-height: 20px; padding: 20px 0px">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial ends -->
+    <!-- price plan starts here
+     -->
+
+    <section id="price">
+      <h1 class="head">Pricing Plan</h1>
+      <div class="container">
+        <div class="block_element">
+          <p class="header">Free trial</p>
+
+          <div class="shapeds">
+            <img src="images/shape.png" alt="" class="shaped" />
+            <img src="images/rocket.png" alt="" class="rocket" />
+          </div>
+
+          <h1 class="price_dollor">$ 0<span style="font-size: 14px">.00</span></h1>
+
+          <ul class="support">
+            <li>24/7 Full Support</li>
+            <li>Miximum Revision</li>
+            <li>All Type of Design</li>
+            <li>X</li>
+            <li>X</li>
+          </ul>
+          <a href="#" class="btn"> Purchase now</a>
+        </div>
+
+        <div class="block_element">
+          <p class="header">Free trial</p>
+
+          <div class="shapeds">
+            <img src="images/shape.png" alt="" class="shaped" />
+            <img src="images/rocket.png" alt="" class="rocket" />
+          </div>
+          <h1 class="price_dollor">$ 10<span style="font-size: 14px">.99</span></h1>
+
+          <ul class="support">
+            <li>24/7 Full Support</li>
+            <li>Miximum Revision</li>
+            <li>All Type of Design</li>
+            <li>X</li>
+            <li>X</li>
+          </ul>
+          <a href="#" class="btn"> Purchase now</a>
+        </div>
+
+        <div class="block_element">
+          <p class="header">Free trial</p>
+
+          <div class="shapeds">
+            <img src="images/shape.png" alt="" class="shaped" />
+            <img src="images/rocket.png" alt="" class="rocket" />
+          </div>
+          <h1 class="price_dollor">$ 20<span style="font-size: 14px">.99</span></h1>
+
+          <!-- <hr style="width: 240px; margin: 0 auto; opacity: 0.5" /> -->
+
+          <ul class="support">
+            <li>24/7 Full Support</li>
+            <li>Miximum Revision</li>
+            <li>All Type of Design</li>
+            <li>X</li>
+            <li>X</li>
+          </ul>
+          <a href="#" class="btn"> Purchase now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- price plan ends here -->
+
+    <!-- blogs -->
+
+    <sectoin id="blog">
+      <div class="blog">
+        <h1 class="head">My blogs</h1>
+
+        <div class="container">
+          <!-- main -->
+          <div class="main_card">
+            <div class="left card">
+              <!-- sub -->
+              <div class="sub_card">
+                <!-- sub_one -->
+
+                <div class="sub_card_one" style="background: url('images/11.jpg.png')">
+                  <h1 class="date">26 <br />Oct</h1>
+                </div>
+                <!-- sub_one ends -->
+                <!-- sub_two starts -->
+                <div class="sub_card_two">
+                  <!-- flex_items -->
+                  <div class="flex_items">
+                    <div class="flex_one">
+                      <i class="fas fa-user-friends" style="margin-top: 3px"></i>
+                      <p>Posted By: Admin</p>
+                    </div>
+                    <!-- links -->
+                    <div class="likes">
+                      <div class="flex">
+                        <i class="fas fa-thumbs-up"></i>
+
+                        <p>1.5K</p>
+                      </div>
+
+                      <div class="flex">
+                        <i class="fas fa-comments"></i>
+
+                        <p>1k</p>
+                      </div>
+
+                      <div class="flex">
+                        <i class="fas fa-share"></i>
+
+                        <p>1k</p>
+                      </div>
+                    </div>
+                    <!-- links ends -->
+                  </div>
+                  <!-- flex_items ends -->
+
+                  <h2 style="font-size: 20px; padding: 30px 0px; color: var(--clr-header)">
+                    Design is so Simple, So that it’s too much Complicated
+                  </h2>
+
+                  <p style="color: var(--clr-para-card); line-height: 20px">
+                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim eniam, quis nostrud exercitation ullamco.
+                  </p>
+
+                  <div class="flex_two">
+                    <a href="btn">
+                      Read More
+
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#btn">
+                      <i class="fas fa-share"></i>
+
+                      Share
+                    </a>
+                  </div>
+                </div>
+
+                <!-- sub_two ends-->
+              </div>
+              <!-- sub ends -->
+
+              <!-- sub -->
+              <div class="sub_card">
+                <!-- sub_one -->
+
+                <div class="sub_card_one" style="background: url('images/11.jpg.png')">
+                  <h1 class="date">26 <br />Oct</h1>
+                </div>
+                <!-- sub_one ends -->
+                <!-- sub_two starts -->
+                <div class="sub_card_two">
+                  <!-- flex_items -->
+                  <div class="flex_items">
+                    <div class="flex_one">
+                      <i class="fas fa-user-friends" style="margin-top: 3px"></i>
+                      <p>Posted By: Admin</p>
+                    </div>
+                    <!-- links -->
+                    <div class="likes">
+                      <div class="flex">
+                        <i class="fas fa-thumbs-up"></i>
+
+                        <p>1.5K</p>
+                      </div>
+
+                      <div class="flex">
+                        <i class="fas fa-comments"></i>
+
+                        <p>1k</p>
+                      </div>
+
+                      <div class="flex">
+                        <i class="fas fa-share"></i>
+
+                        <p>1k</p>
+                      </div>
+                    </div>
+                    <!-- links ends -->
+                  </div>
+                  <!-- flex_items ends -->
+
+                  <h2 style="font-size: 20px; padding: 30px 0px; color: var(--clr-header)">
+                    Design is so Simple, So that it’s too much Complicated
+                  </h2>
+
+                  <p style="color: var(--clr-para-card); line-height: 20px">
+                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim eniam, quis nostrud exercitation ullamco.
+                  </p>
+
+                  <div class="flex_two">
+                    <a href="btn">
+                      Read More
+
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#btn">
+                      <i class="fas fa-share"></i>
+
+                      Share
+                    </a>
+                  </div>
+                </div>
+
+                <!-- sub_two ends-->
+              </div>
+              <!-- sub ends -->
+            </div>
+
+            <div class="right_card">
+              <!-- sub -->
+              <div class="sub_card_right">
+                <!-- sub_one -->
+
+                <div class="sub_card_one" style="background: url('images/12.jpg')">
+                  <h1 class="date">26 <br />Oct</h1>
+                </div>
+                <!-- sub_one ends -->
+                <!-- sub_two starts -->
+                <div class="sub_card_two">
+                  <!-- flex_items -->
+                  <div class="flex_items">
+                    <div class="flex_one">
+                      <i class="fas fa-user-friends" style="margin-top: 3px"></i>
+
+                      <p>Posted By: Admin</p>
+                    </div>
+                    <!-- links -->
+                    <div class="likes">
+                      <div class="flex">
+                        <i class="fas fa-thumbs-up"></i>
+
+                        <p>1.5K</p>
+                      </div>
+
+                      <div class="flex">
+                        <i class="fas fa-comments"></i>
+
+                        <p>1k</p>
+                      </div>
+
+                      <div class="flex">
+                        <i class="fas fa-share"></i>
+
+                        <p>1k</p>
+                      </div>
+                    </div>
+                    <!-- links ends -->
+                  </div>
+                  <!-- flex_items ends -->
+
+                  <h2 style="font-size: 20px; padding: 30px 0px; color: var(--clr-header); text-align: center">
+                    Design is so Simple, So that it’s too much Complicated
+                  </h2>
+
+                  <p style="color: var(--clr-para-card); line-height: 25px; text-align: center; width: 95%; margin: 0 auto">
+                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim eniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea.
+                  </p>
+
+                  <div class="flex_two">
+                    <a href="btn">
+                      Read More
+
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#btn">
+                      <i class="fas fa-share"></i>
+
+                      Share
+                    </a>
+                  </div>
+                </div>
+
+                <!-- sub_two ends-->
+              </div>
+              <!-- sub ends -->
+            </div>
+          </div>
+          <!-- main ends -->
+        </div>
+      </div>
+    </sectoin>
+
+    <!-- blogs ends -->
+
+    <!-- footer part starts here -->
+
+    <footer id="contact">
+      <div class="container">
+        <div class="left_side">
+          <h3>Get In Touch</h3>
+
+          <p>
+            <i class="fas fa-map-marker-alt"> </i>
+
+            1234, Parkstreet Avenue, America.
+          </p>
+
+          <p>
+            <i class="fas fa-envelope"> </i>
+
+            portfolio@personalportfolio.com
+          </p>
+
+          <p>
+            <i class="fas fa-globe"> </i>
+
+            wwww.perosnalportfolio.com
+          </p>
+
+          <div class="link_part">
+            <h3>Follow Me</h3>
+
+            <div class="links">
+              <div class="i">
+                <i class="fab fa-facebook"></i>
+              </div>
+
+              <div class="i">
+                <i class="fab fa-twitter"></i>
+              </div>
+
+              <div class="i">
+                <i class="fab fa-pinterest"></i>
+              </div>
+
+              <div class="i">
+                <i class="fab fa-behance"></i>
+              </div>
+
+              <div class="i">
+                <i class="fab fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right_side">
+          <h2>Message Me</h2>
+
+          <form action="">
+            <input type="text" placeholder="Your name" />
+            <input type="email" placeholder="Your E-mail" />
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          </form>
+        </div>
+      </div>
+      <div class="last_footer">
+        <p>Copyright 2018. All rights reserved by Designer</p>
+      </div>
+    </footer>
+
+    <!-- footer part ends here  -->
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+  </body>
+  <script>
+    var preloader = document.getElementById("preloder");
+    function myFunction() {
+      preloader.style.display = "none";
+    }
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $(".blocks").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        nextArrow: ".next",
+        prevArrow: ".prev",
+        // dots: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".main_block").slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        nextArrow: ".next_n",
+        prevArrow: ".prev_n",
+        // dots: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
+      });
+    });
+  </script>
+  <script>
+    window.addEventListener("scroll", function () {
+      let navArea = document.getElementById("navigation");
+
+      if (window.pageYOffset > 0) {
+        navArea.classList.add("is-sticky");
+      } else {
+        navArea.classList.remove("is-sticky");
+      }
+    });
+  </script>
+</html>
